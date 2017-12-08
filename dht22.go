@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kidoman/embd"
-	_ "github.com/kidoman/embd/host/rpi" // This loads the RPi driver
+	"github.com/pravipati/embd"
+	_ "github.com/pravipati/embd/host/rpi" // This loads the RPi driver
 )
 
 // AM2302/DHT22 - digital relative humidity and temperature sensor
